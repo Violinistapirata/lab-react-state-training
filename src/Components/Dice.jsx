@@ -19,7 +19,7 @@ function Dice() {
     const [diceFace, setDiceFace] = useState(0);
     return (
 
-        <div className='dice'>
+        <div className='img-wrapper'>
             <img onClick={
                 () => {
                     setDiceFace(0);

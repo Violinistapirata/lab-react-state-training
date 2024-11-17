@@ -1,9 +1,9 @@
 import "./App.css";
-// import LikeButton from "./Components/LikeButton";
-// import Counter from "./Components/Counter";
-// import ClickablePicture from "./Components/ClickablePicture";
-// import Dice from "./Components/Dice";
-// import DiscoButton from "./Components/DiscoButton";
+import LikeButton from "./Components/LikeButton";
+import Counter from "./Components/Counter";
+import ClickablePicture from "./Components/ClickablePicture";
+import Dice from "./Components/Dice";
+import DiscoButton from "./Components/DiscoButton";
 import Carousel from "./Components/Carousel";
 
 
@@ -17,11 +17,11 @@ function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
-      {/* <LikeButton /> */}
-      {/* <Counter /> */}
-      {/* <ClickablePicture /> */}
-      {/* <Dice /> */}
-      {/* <DiscoButton /> */}
+      <LikeButton />
+      <Counter />
+      <ClickablePicture />
+      <Dice />
+      <DiscoButton />
       <Carousel images={imagesArray}/>
     </div>
   );

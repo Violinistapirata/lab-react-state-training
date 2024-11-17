@@ -4,6 +4,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    gap: 1rem;
+
+    h1 {
+        align-self: start;
+    }
 }
 
 .button-wrapper {
@@ -16,5 +21,15 @@
         margin: 1rem;
         padding: 1rem;
 
+    }
+}
+
+.img-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 10%;
     }
 }

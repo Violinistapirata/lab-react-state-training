@@ -6,7 +6,7 @@ function ClickablePicture() {
   const noGlasses = './src/assets/images/maxence.png';
   const withGlasses = './src/assets/images/maxence-glasses.png';
   return (
-    <div className="image-wrapper" >
+    <div className="img-wrapper" >
       <img onClick={() => setGlasses(!glasses)} src={glasses? withGlasses : noGlasses} alt="boy image" />
     </div> 
   ) 

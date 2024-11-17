@@ -7,12 +7,13 @@ function Carousel(props) {
   const currentImage = images[count % images.length];
   return (
     <>
-      <img src={currentImage} alt="user image" />
+      <div className="img-wrapper">
+        <img src={currentImage} alt="user image" />
+      </div>
       <div className="button-wrapper">
         <button
           onClick={() => {
-            setCount(count<=0? count + images.length : count - 1);
-            console.log(count);
+            setCount(count <= 0 ? count + images.length : count - 1);
           }}
         >
           ⬅️
@@ -21,7 +22,6 @@ function Carousel(props) {
         <button
           onClick={() => {
             setCount(count + 1);
-            console.log(count);
           }}
         >
           ➡️
